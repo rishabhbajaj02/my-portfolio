@@ -11,9 +11,7 @@ const Projects = () => {
         Apps I've Built
       </h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-        facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-        fuga dolore.
+        Here are some of the projects I built
       </p>
     </div>
     <div className="flex flex-wrap -m-4">
