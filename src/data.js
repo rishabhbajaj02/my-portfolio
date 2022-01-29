@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
+    image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   },
 ];
@@ -36,17 +36,28 @@ export const projects = [
 export const experiences = [
   {
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      "•	Contributed to development of 2 CEM projects using .NET technologies. \n•	Conducted code reviews through Azure\n•	Optimized SQL performance by 70% by writing scripts that maps new features to business goals.",
+    image: "./bond.jpg",
+    timeline: 'Sept 2020 - Aug 2021',
+    name: "Software Developer Coop",
+    company: "Bond Brand Loyalty",
   },
   {
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "•	Participated in bi-weekly SCRUM meetings as one of the spokespersons for development team.\n•	Contributed to automated selenium unit tests in C# to reduce test case implementation time by 85%.",
+    image: "./teranet.jpg",
+    timeline: 'Jan 2020 - Apr 2020',
+    name: "QA Analyst",
+    company: "Teranet Inc.",
+  },
+
+  {
+    description:
+      "•	Organized weekly math sessions for around 30 students and assisted them by providing with lecture notes and tutorials.\n•	Demonstrated initiative, leadership and a passion for learning new skills",
+    image: "./sheridan.jpg",
+    timeline: 'Jan 2019 - Dec 2019',
+    name: "Peer Leader",
+    company: "Sheridan College",
   },
 ];
 

@@ -3,33 +3,104 @@ import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { experiences } from "../data";
 
 const Experience = () => {
-  return  <section id="experiences">
-  <div className="container px-5 py-10 mx-auto text-center">
-    <UsersIcon className="w-10 inline-block mb-4 text-gray-800" />
-    <h1 className="sm:text-4xl text-3xl font-medium title-font text-gray-800 mb-12">
-      Professional Experience
-    </h1>
-    <div className="flex flex-wrap m-4">
-      {experiences.map((experience) => (
-    <ol class="items-center sm:flex">
-    <li class="relative mb-6 sm:mb-0">
-         <div class="flex items-center">
-             <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full dark:bg-blue-900 ring-0 sm:ring-8 ring-white dark:ring-gray-900 shrink-0">
-                 <svg class="w-3 h-3 text-blue-600 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-             </div>
-             <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-         </div>
-         <div class="mt-3 sm:pr-8 sm:mt-6">
-             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.0.0</h3>
-             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2, 2021</time>
-             <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
-         </div>
-     </li>
-     </ol>
-      ))}
+  return <section id="experiences">
+    <div className="container px-5 py-10 mx-auto text-center">
+      <UsersIcon className="w-10 inline-block mb-4 text-gray-800" />
+      <h1 className="sm:text-4xl text-3xl font-medium title-font text-gray-800 mb-12">
+        Professional Experience
+      </h1>
+      <div className="flex flex-wrap m-4">
+        <div className="w-full bg-gray-100 px-10 pt-10">
+          <div className="container mx-auto">
+            <div role="list" aria-label="Behind the scenes People " className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
+              {/* <div role="listitem" className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                <div className="rounded overflow-hidden shadow-md bg-white">
+                  <div className="absolute -mt-20 w-full flex justify-center">
+                    <div className="h-32 w-32">
+                      <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt="Display Picture of Andres Berlin" role="img" className="rounded-full object-cover h-full w-full shadow-md" />
+                    </div>
+                  </div>
+                  <div className="px-6 mt-16">
+                    <h1 className="font-bold text-3xl text-center mb-1">Andres Berlin</h1>
+                    <p className="text-gray-800 text-sm text-center">Chief Executive Officer</p>
+                    <p className="text-center text-gray-600 text-base pt-3 font-normal">The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.</p>
+                    <div className="w-full flex justify-center pt-5 pb-5">
+                      <a href="javascript:void(0)" className="mx-5">
+                        <div aria-label="Github" role="img">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="feather feather-github">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                          </svg>
+                        </div>
+                      </a>
+                      <a href="javascript:void(0)" className="mx-5">
+                        <div aria-label="Twitter" role="img">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="feather feather-twitter">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                          </svg>
+                        </div>
+                      </a>
+                      <a href="javascript:void(0)" className="mx-5">
+                        <div aria-label="Instagram" role="img">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="feather feather-instagram">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> */}
+              {experiences.map((experience, idx) => (
+                <div role="listitem" key={idx} className="xl:w-1/3 lg:mx-3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                  <div className="rounded overflow-hidden shadow-md bg-white">
+                    <div className="absolute -mt-20 w-full flex justify-center">
+                      <div className="h-32 w-32">
+                        <img src={experience.image} alt={experience.company} className="rounded-full object-cover h-full w-full shadow-md" />
+                      </div>
+                    </div>
+                    <div className="px-6 mt-16 pb-5">
+                      <h1 className="font-bold text-3xl text-center mb-1">{experience.company}</h1>
+                      <p className="text-gray-800 text-lg text-center">{experience.name}</p>
+                      <p className="text-gray-800 text-md text-center">{experience.timeline}</p>
+                      <p className="text-center text-gray-600 text-base pt-3 font-normal">{experience.description}</p>
+                      {/* <div className="w-full flex justify-center pt-5 pb-5">
+                        <a href="javascript:void(0)" className="mx-5">
+                          <div aria-label="Github" role="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="feather feather-github">
+                              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" className="mx-5">
+                          <div aria-label="Twitter" role="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="feather feather-twitter">
+                              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" className="mx-5">
+                          <div aria-label="Instagram" role="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" className="feather feather-instagram">
+                              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                          </div>
+                        </a>
+                      </div> */}
+                    </div>
+                  </div>
+                </div>
+              ))}
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>;
+  </section>;
 };
 
 export default Experience;
