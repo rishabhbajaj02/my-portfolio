@@ -24,12 +24,12 @@ export const projects = [
     link: "https://ipldashboard.azurewebsites.net/#/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Link Chat Up",
+    subtitle: "Node JS, Express.js, Socket.io",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Link Chat Up is an application built using Node JS and Express. It allows the user to create/join rooms and share messages and location with them in real time using Socket.io",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://linkchatup.herokuapp.com/",
   },
 ];
 
