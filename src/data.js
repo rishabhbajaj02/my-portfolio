@@ -36,15 +36,27 @@ export const projects = [
 export const experiences = [
   {
     description:
-      "•	Contributed to development of 2 CEM projects using .NET technologies. \n•	Conducted code reviews through Azure\n•	Optimized SQL performance by 70% by writing scripts that maps new features to business goals.",
+      `•	Developed a data factory pipeline in Azure to improve SOC audit processes, boosting efficiency by 80%, reducing errors by 50%, and cutting operational costs by 15%.
+•	Led UI redesign and angular migration to enhance customer reach, increasing user engagement by 25% and lowering bounce rates by 15%.
+•	Engineered a scalable solution for deploying new tenants using Terraform and infrastructure as a code strategy, reducing environment setup times by 40% and minimizing configuration inconsistencies by 30%.`,
+    image: "./bond.jpg",
+    timeline: 'Feb 2022 - Present',
+    name: "Software Engineer",
+    company: "Bond Brand Loyalty",
+  },
+  {
+    description: `•	Collaborated with senior developers to design and implement C# code, reducing application load times by 20% by identifying and resolving performance bottlenecks.
+•	Contributed to .NET Core and MS SQL Server projects, leveraging Azure native services and Cosmos DB, which improved application efficiency by 15%.
+•	Developed REST APIs and Blazor features, enhancing user interface responsiveness and functionality, resulting in a 25% improvement in user engagement.`,
     image: "./bond.jpg",
     timeline: 'Sept 2020 - Aug 2021',
     name: "Software Developer Coop",
     company: "Bond Brand Loyalty",
   },
   {
-    description:
-      "•	Participated in bi-weekly SCRUM meetings as one of the spokespersons for development team.\n•	Contributed to automated selenium unit tests in C# to reduce test case implementation time by 85%.",
+    description: `•	Authored and executed over 30 complex SQL and PL/SQL queries for data validation and ETL process verification, contributing to a 10% increase in testing accuracy.
+•	Engineered test data preparation techniques using SQL Server and ETL tools, creating reusable datasets for over 15 test scenarios, which streamlined test execution and reduced setup time by 25%.
+•	Developed automated test scripts using C# and Selenium, decreasing manual testing efforts by 40% and accelerating test cycle times by 25%.`,
     image: "./teranet.jpg",
     timeline: 'Jan 2020 - Apr 2020',
     name: "QA Analyst",
@@ -53,7 +65,8 @@ export const experiences = [
 
   {
     description:
-      "•	Organized weekly math sessions for around 30 students and assisted them by providing with lecture notes and tutorials.\n•	Demonstrated initiative, leadership and a passion for learning new skills",
+      `•	Organized weekly math sessions for around 30 students and assisted them by providing with lecture notes and tutorials. 
+      • Demonstrated initiative, leadership and a passion for learning new skills`,
     image: "./sheridan.jpg",
     timeline: 'Jan 2019 - Dec 2019',
     name: "Peer Leader",
